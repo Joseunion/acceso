@@ -14,7 +14,7 @@ import lombok.NoArgsConstructor;
 public class Estadio {
  
     @Id
-    private long id;
+    private String id;
 
     @Field
     private int capacidad;
