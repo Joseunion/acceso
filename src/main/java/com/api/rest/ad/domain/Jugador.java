@@ -13,7 +13,7 @@ import org.springframework.data.mongodb.core.mapping.Field;
 public class Jugador {
 
     @Id
-    private long id;
+    private String id;
 
     @Field
     private String nombre;
